@@ -892,6 +892,10 @@ footer .follow i{
       grid-template-columns: repeat(2, 1fr);
       column-gap: 2rem;
   }
+
+  #newsletter .form{
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 992px){
@@ -922,6 +926,9 @@ footer .follow i{
   .footer-banner .btn{
       margin-left: 0;
   }
+  #newsletter .form{
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 1200px){
@@ -937,6 +944,9 @@ footer .follow i{
   .product-list{
       grid-template-columns: repeat(4, 1fr);
   }
+  #newsletter .form{
+    width: 100%;
+  }
 }
 
 @media (max-width: 477px){
@@ -948,6 +958,9 @@ footer .follow i{
   #hero{
     padding: 0px 20px;
     background-position: 55%;
+  }
+  #newsletter .form{
+    width: 100%;
   }
 
   /* Blog Page */
@@ -973,6 +986,24 @@ footer .follow i{
     width: 100%;
     padding-right: 60px;
   }
+
+  /* About Page */
+
+  #about-head{
+    flex-direction: column;
+
+  }
+
+  #about-head img{
+    width: 100%;
+    margin-bottom: 20px;
+
+  }
+  
+  #about-head div{
+    padding-left: 0px;
+  }
+
 
 
 }
